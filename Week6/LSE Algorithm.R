@@ -10,4 +10,4 @@ abline(v=2227, lty=2)
 predict(reg, newdata = data.frame(x=2227))
 predict(reg, newdata = data.frame(x=c(2227, 3000)))
 
-reg <- lm(x ~ y, data = house)
+reg <- lm(x ~ y, data = house) # 선형회귀
